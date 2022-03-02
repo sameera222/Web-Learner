@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <title>Register Code PiP</title>
+      <link rel="stylesheet" type="text/css" href="mystyle.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+       <style>
+
+
+         .flex_container{
+         display: flex;
+         top: 0px;
+         height: 60px;
+         width: 100%;
+         border: 6px top 0px;
+         font: 18px "source sans-serif";
+         background-color:#1d3c78;
+         justify-content:space-between ;
+         }
+
+
+         .flex_item{
+         color: white;
+         padding: 18px;
+         }
+
+
+         .logo{
+         margin-left: 50px;
+         }
+
+         .parent_item{
+         display: flex;
+         justify-content: space-between;
+         }
+
+         .parent_item1{
+         display: flex;
+         justify-content: space-around;
+         }
+
+         .parent_container{
+         display:flex;
+         height: 1250px;
+         }
+
+         .register_container{
+         width:70%;
+         height: 1000px;
+         padding:10px ;
+         background:white;
+         margin:100px auto;
+         display: flex;
+         align-items: center;
+         }
+
+         .box1{
+         width:500px;
+         height:1000px;
+         background:whitesmoke;
+         padding-left: 50px;
+         padding-top: 30px;
+         border: 1px solid #dddddd;
+         border-collapse: collapse;
+         }
+
+         .box2{
+         width:500px;
+         height:1000px;
+         background: #122f50;
+         border: 1px solid #dddddd;
+         border-collapse: collapse;
+         color:#ffff;
+         padding-left: 50px;
+         padding-top: 30px;
+         }
+
+         .myplan{
+         border: 1px solid #dddddd;
+         border-collapse: collapse;
+         margin-bottom: 30px;
+         margin-right: 30px;
+         padding: 4px;
+         }
+
+         table, th, td {
+         border: 1px solid #dddddd;
+         border-collapse: collapse;
+         }
+
+         .content{
+         margin-left: 25px;
+         }
+
+         .grid_container{
+         background-color: #122f50;
+         width: 100%;
+         height:600px;
+         bottom: 0px;
+         display: grid;
+         grid-template-rows: 100px 1fr 100px;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+         }
+
+         .grid_item{
+         background-color: #122f50;
+         color: white;
+         padding: 10px;
+         margin-left: 20px;
+         }
+
+         a{
+         color: white;
+         text-decoration: none;
+         }
+
+         .grid1{
+         grid-column-start: 1;
+         grid-column-end: 6;
+         }
+
+         .grid7{
+         grid-column-start: 1;
+         grid-column-end: 6;
+         }
+
+      </style>
+   </head>
+   <body>
+      <div class="flex_container">
+         <div class="parent_item">
+
+            <div class="logo">
+               <a href="https://codepip.com"><img src="C:\Users\Lenovo\Downloads\logo1copy.png" alt="Codepiplogo" width="120" height="60"></a>
+            </div>
+         
+            <div class="flex_item">Games</div>
+            <div class="flex_item">Plans</div>
+            <div class="flex_item">Blog</div>
+         </div>
+
+         <div class="parent_item1">
+            <div class="flex_item">Login</div>
+            <div class="flex_item" >Signup</div>
+         </div>
+      </div>
+
+      <div class="parent_container">
+         <div class="register_container">
+            <div class="box1">
+
+               <h2>Register New Account</h2>
+
+
+               <label for="username">Username</label><br><br>
+               <input type="text" name="full name" id="username" size="50"><br><br>
+
+
+               <label for="email">Email</label><br>
+               <input type="email" id="email address" name="email" size="50"><br>
+
+               You'll need to verify your email address. <br><br>
+
+               <label for="password">Password</label><br>
+               <input type="password" id="pwd" name="pwd" size="50"><br><br>
+
+               <label for="password">Password Again</label><br>
+               <input type="password" id="pwd1" name="pwd" size="50"><br><br>
+
+               <h2>Choose your plan</h2>
+
+               <div class="myplan">
+
+                  <input type="radio" id="Basic-free" name="plan name" value="Basic_free">
+                  <label for="plan">Basic-free</label><br><br>
+
+                  <input type="radio" id="Pro Monthly" name="plan name" value="pro monthly">
+                  <label for="Pro Monthly">Pro Monthly-$6.00</label><br><br>
+
+                  <input type="radio" id="Pro Annual" name="plan name" value="pro annual">
+                  <label for="Pro Annual">Pro Annual-$49.00</label><br><br>
+
+                  <input type="radio" id="Pro Lifetime" name="plan name" value="pro lifetime">
+                  <label for="Pro Lifetime">Pro Lifetime-$99.00</label><br><br>
+
+                  <input type="radio" id="Pro Group Monthly" name="plan name" value="pro group monthly">
+                  <label for="Pro group monthly ">Pro Group Monthly-$3.00 per seat</label><br><br>
+
+                  <input type="radio" id="Pro Group Annual" name="plan name" value="pro group annual">
+                  <label for="Pro Group Annual">Pro Group Annual-$24.00 per seat</label><br><br>
+
+               </div>
+
+               <table style="width:70%">
+                  <tr  style="height:50px">
+                     <th>Membership</th>
+                     <th>Amount</th>
+                  </tr >
+                  <tr style="height:50px" >
+                     <td>Basic</td>
+                     <td>Free</td>
+                  </tr>
+                  <tr style="height:50px">
+                     <td>Total Day</td>
+                     <td>Free</td>
+                  </tr>
+               </table>
+               <br>
+
+               <input type="checkbox" id="terms and conditions" name="statement" value="terms and conditions">
+               <label for="statement">I agree to the terms and conditions </label><br>
+
+               <input type="checkbox" id="statement" name="statement" value="terms and conditions1">
+               <label for="statement">I want to get emails about news games and exclusive offers </label><br><br><br>
+
+               <div>
+                  <button>Register</button><br><br>
+               </div>
+               <div>
+
+                  Already have an Account?
+                  <a href="https://codepip.com/login/">Login</a>
+               </div>
+
+            </div>
+            <div class="box2">
+
+               <h2>Basic Plan</h2>
+
+               <div class="header">
+                  <div class="icon"><i class="fa fa-check" style="margin-right: 10px;" ></i><b> Free Games</b> </div>
+                  <p class="content">play free games that introduce the latest coding topics.</p>
+                  <br>
+
+                  <div class="icon"><i class="fa fa-check" style="margin-right: 10px;" ></i><b> Checkpoints </b></div>
+                  <p class="content" >Save your progress and access it from anywhere.</p>
+                  <br>
+
+                  <div class="icon"><i class="fa fa-check" style="margin-right: 10px;" ></i><b>Achievements</b></div>
+                  <p class="content">Track and share your in-game achievements.</p>
+                  <br>
+
+                  <h2>Pro Plans</h2>
+
+                  <div class="header"></div>
+                  <div class="icon"><i class="fa fa-check" style="margin-right: 10px;"></i><b>Pro Games </b></div>
+                  <p class="content">play premium games that help you achieve mastery.</p>
+                  <br>
+
+                  <div class="icon"><i class="fa fa-check" style="margin-right: 10px;" ></i><b>Solution Guides</b></div>
+                  <p class="content">Access detailed explanations for educators or stumped students.</p>
+                  <br>
+
+                  <div class="icon"><i class="fa fa-check" style="margin-right: 10px;" ></i><b>No Ads</b></div>
+                  <p class="content">Hide ads and play distraction-free.</p>
+                  <br>
+
+                  <h2>Group Plans</h2>
+
+                  <div class="header"></div>
+
+                  <div class="icon"><i class="fa fa-check" style="margin-right: 10px;"></i><b>Classroom Management</b></div>
+                  <p class="content">All of the above, plus register and manage other users.</p>
+                  <br>
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      <div class="grid_container">
+         <div class="grid_item grid1">
+            <img src="C:\Users\Lenovo\Downloads\logo1copy.png" alt="codepiplogo" style="margin-left: 30px;" height="60"  width="120">
+         </div>
+         <div class="grid_item grid2">
+            <h3>Codepip</h3>
+            <a href="https://codepip.com/about/">About Us</a><br><br><br>
+            <a href="https://codepip.com/blog/">Blog</a><br><br><br>
+            <a href="https://codepip.com/pro/">Pricing</a><br><br><br>
+            <a href="https://codepip.com/curriculum/">Curriculum</a><br><br><br>
+            <a href="https://codepip.com/press/">Press</a><br>
+         </div>
+         <div class="grid_item grid3">
+            <h3>Features</h3>
+            <a href="https://codepip.com/games/">Games</a><br><br><br>
+            <a href="https://codepip.com/pro/">Individual Plans</a><br><br><br>
+            <a href="https://codepip.com/pro/#groups">Group Plans</a><br><br><br>
+            <a href="https://codepip.com/classroom/">Classroom</a>
+         </div>
+         <div class="grid_item grid4">
+            <h3>Support</h3>
+            <a href="https://codepip.com/faq/">FAQ</a><br><br><br>
+            <a href="https://codepip.com/contact/">Contact Us</a><br><br><br>
+            <a href="https://codepip.com/privacy/">Privacy Policy</a><br><br><br>
+            <a href="https://codepip.com/terms/">Terms of Service</a>
+         </div>
+         <div class="grid_item grid5">
+            <h3>Follow</h3>
+            <a href="https://twitter.com/playcodepip/"><i class="fab fa-twitter"></i>Twitter</a><br><br><br>
+            <a href="https://facebook.com/codepip/"><i class="fab fa-facebook"></i>Facebook</a><br><br><br>
+            <a href="https://instagram.com/codepip/"><i class="fab fa-instagram"></i>Instagram</a><br><br><br>
+            <a href="https://www.linkedin.com/company/codepip/"> <i class="fab fa-linkedin"></i>LinkedIn</a><br><br><br>
+            <a href="https://www.youtube.com/codepip"><i class="fab fa-youtube"></i>YouTube</a><br><br><br>
+            <a href="https://codepip.com/feed/"><i class="fa fa-rss"></i>RSS</a>
+         </div>
+         <div class="grid_item grid6">
+
+            <a href="https://codepip.com/blog/">
+               <h3>Latest</h3>
+            </a>
+            <a href="https://codepip.com/blog/reach-your-resources-with-pathfinder-a-game-of-constructing-file-paths/">
+            Reach your resources with Pathfinder, a game of constructing file paths
+            </a><br><br>
+            <a href="https://codepip.com/blog/treat-yourself-to-selectors-with-css-scoops/">
+            Treat yourself to selectors with CSS Scoops
+            </a><br><br>
+            <a href="https://codepip.com/blog/organize-emoji-with-disarray-a-coding-game-about-javascript-array-methods/">
+            Organize emoji with Disarray, a coding game about JavaScript array methods
+            </a><br><br>
+            <a href="https://codepip.com/blog/dig-deep-about-the-nth-child-selector-with-our-new-css-game-nth-cart/">
+            Dig deep about the :nth-child() selector with our newest CSS game, Nth Cart
+            </a>
+         </div>
+         <div class="grid_item grid7">
+            &copy;2022 Codepip. All rights reserved.
+         </div>
+      </div>
+   </body>
+</html>
