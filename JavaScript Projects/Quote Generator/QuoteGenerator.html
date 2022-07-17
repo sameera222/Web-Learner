@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <style>
+       .quote-container{
+        height:100vh;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       }
+      /* .main-content{
+        color:black;
+        font-size: x-large;
+        font-style: italic;
+      }   */
+
+      #quotes{
+        color:black;
+        font-size: x-large;
+        font-style: italic;
+      }
+     .btn{
+        border-radius: 5px;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+    }
+    </style>
+</head>
+<body style="background-color:rgba(0, 128, 0, 0.3)">
+    <div class="quote-container">
+        <div class="main-content">
+            <blockquote>
+                <p id = "quotes">"I have far more respect for the person with a single idea who gets there than one with a thousand ideas and does nothing." -Thomas Edison</p>
+            </blockquote>
+               <Button onclick="newQuote()"> Next quote</Button>
+            <!-- <blockquote>
+                <i id="quotesgenerator">
+                    "I have far more respect for the person with a single idea who gets there than one with a thousand ideas and does nothing." 
+                    -Thomas Edison
+                </i>
+
+            </blockquote>
+            <a onclick="newQuote()">Next Quote</a> -->
+           
+        </div>     
+    </div> 
+    <script src="./QuoteGenerator.js"></script>
+</body>
+</html>
